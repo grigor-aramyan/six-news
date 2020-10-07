@@ -8,6 +8,6 @@ class IndexController extends Controller
 {
     public function index(Request $request)
     {
-        return response()->json(['msg' => 'test']);
+        return view('index');
     }
 }
